@@ -1,1 +1,1 @@
-A standard calculator in React# calculator
+A standard calculator in React
