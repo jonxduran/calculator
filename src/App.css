@@ -1,0 +1,128 @@
+
+#App {
+	width: 800px;
+	height: 640px;
+	display: flex;
+	flex-direction: row;
+	background-color: rgba(220, 220, 220, 0.6);
+}
+
+div#left {
+	width: 520px;
+}
+
+div#right {
+	width: 280px;
+	display: flex;
+	flex-direction: column;
+}
+
+div.right-title-container {
+	font-size: 24px;
+}
+
+div.right-title-container, div.right-big-container {
+	position: relative;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	cursor: pointer;
+	user-select: none;
+}
+
+div.right-title-container div {
+	margin: auto;
+	margin-left: 100px;
+}
+
+div.right-big-container div {
+	margin: auto;
+	margin-left: 40px;
+	margin-bottom: 20px;
+}
+
+div.right-selectable {
+	font-size: 16px;
+	width: 200px;
+	padding: 5px;
+	cursor: pointer;
+	user-select: none;
+}
+
+div.right-selectable:hover {
+	background-color: rgba(153, 115, 175, 0.6);
+}
+
+div#entryscreen {
+	height: 140px;
+	width: 100%;
+	position: relative;
+}
+
+div#entryscreen-query {
+	display: flex;
+	flex-direction: row;
+
+}
+
+div.longquery {
+	margin: 5px;
+	font-size: 24px;
+}
+
+div#entryscreen-result {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	flex-direction: row;
+}
+
+div#entryscreen-dataquery {
+	width: 98%;
+	display: flex;
+	flex-direction: row;
+}
+
+div#entryresult {
+	font-size: 48px;
+}
+
+
+
+div#calcbuttons {
+	display: flex;
+	flex-direction: column;
+}
+
+div.calc-row {
+	width: 100%;
+	height: 80px;
+	margin: 10px 0;
+	display: flex;
+	flex-direction: row;
+}
+
+div.calc-button {
+	width: 23%;
+	height: 100%;
+	margin: auto;
+	display: flex;
+	text-align: center;
+	background-color: rgba(220, 220, 220, 0.6);
+	cursor: pointer;
+}
+
+div.calc-button:hover {
+	background-color: rgba(153, 115, 175, 0.6) !important;
+}
+
+div.calc-button.num:hover {
+	background-color: rgba(180, 180, 180, 0.6) !important;
+}
+
+div.calc-button span {
+	margin: auto;
+	font-size: 32px;
+	user-select: none;
+}
